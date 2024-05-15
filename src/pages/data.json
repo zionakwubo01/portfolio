@@ -1,0 +1,18 @@
+[
+  {
+    "name": "javascript",
+    "icon": "<FaJava/>"
+  },
+  {
+    "name": "mongodb",
+    "icon": "<FaJava/>"
+  },
+  {
+    "name": "react",
+    "icon": "<FaJava/>"
+  },
+  {
+    "name": "node js",
+    "icon": "<FaJava/>"
+  }
+]
