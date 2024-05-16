@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div>
       <div className="w-full min-h-[300px] bg-black flex items-center justify-center">
-        <div className="w-[80%] min-h-[300px]  grid grid-rows-4 gap-5 mt-[60px] lg:mt-[5px]">
+        <div className="w-[80%] min-h-[300px]  grid grid-rows-4 gap-5 mt-[70px] lg:mt-[5px]">
           <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
             <div
               className="row-col-1 flex items-center justify-center gap-5 h-[50px] "
