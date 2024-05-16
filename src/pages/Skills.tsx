@@ -1,160 +1,135 @@
 import { FaJava } from "react-icons/fa";
+import { FaReact } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { TiHtml5 } from "react-icons/ti";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaNode } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Skills = () => {
   return (
     <div>
       <div className="w-full min-h-[300px] bg-black flex items-center justify-center">
-        <div className="w-[90%] lg:w-[90%] min-h-[300px]  grid grid-rows-4 gap-5 mt-[30px] lg:mt-[5px]">
+        <div className="w-[90%] lg:w-[80%] min-h-[300px]  grid grid-rows-4 gap-5 mt-[30px] lg:mt-[5px]">
           <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px] "
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px] "
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <IoLogoJavascript color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">React</p>
+              <p className="text-white font-bold">Javascript</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <FaReact color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">Express</p>
+              <p className="text-white font-bold">ReactTS</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <RiTailwindCssFill color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">java script</p>
+              <p className="text-white font-bold">TailwindCSS</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <IoLogoCss3 color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">MondoDB</p>
+              <p className="text-white font-bold">CSS</p>
             </div>
           </div>
           <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px] "
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px] "
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <TiHtml5 color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">React</p>
+              <p className="text-white font-bold">HTML</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <FaGitAlt color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">Express</p>
+              <p className="text-white font-bold">Git</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <FaGithub color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">java script</p>
+              <p className="text-white font-bold">Github</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <FaNode color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">MondoDB</p>
-            </div>
-          </div>
-          <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
-            <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px] "
-              style={{ backgroundColor: "#191919" }}
-            >
-              <div>
-                <FaJava color={"white"} size={20} />
-              </div>
-              <p className="text-white font-bold">React</p>
-            </div>
-            <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
-              style={{ backgroundColor: "#191919" }}
-            >
-              <div>
-                <FaJava color={"white"} size={20} />
-              </div>
-              <p className="text-white font-bold">Express</p>
-            </div>
-            <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
-              style={{ backgroundColor: "#191919" }}
-            >
-              <div>
-                <FaJava color={"white"} size={20} />
-              </div>
-              <p className="text-white font-bold">java script</p>
-            </div>
-            <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
-              style={{ backgroundColor: "#191919" }}
-            >
-              <div>
-                <FaJava color={"white"} size={20} />
-              </div>
-              <p className="text-white font-bold">MondoDB</p>
+              <p className="text-white font-bold">NodeJS</p>
             </div>
           </div>
           <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px] "
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px] "
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <DiMongodb color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">React</p>
+              <p className="text-white font-bold">MongoDB</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <SiExpress color={"white"} size={20} />
               </div>
               <p className="text-white font-bold">Express</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[70px]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <SiPostman color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">java script</p>
+
+              <p className="text-white font-bold">Postman</p>
             </div>
             <div
-              className="row-col-1 flex items-center justify-center gap-5 h-[50px]"
+              className="row-col-1 flex items-center justify-center gap-5 h-[]"
               style={{ backgroundColor: "#191919" }}
             >
               <div>
-                <FaJava color={"white"} size={20} />
+                <SiTypescript color={"white"} size={20} />
               </div>
-              <p className="text-white font-bold">MondoDB</p>
+              <p className="text-white font-bold">Typescript</p>
             </div>
           </div>
         </div>
