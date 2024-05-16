@@ -1,7 +1,7 @@
 const Know = () => {
   return (
     <div className="w-full min-h-[10px] bg-black flex items-center justify-center">
-      <div className="w-[90%] lg:w-[80%] mt-[40px]">
+      <div className="w-[90%] lg:w-[80%] mt-[60px]">
         <div className=" text-[14px]" style={{ color: "#5E7375" }}>
           SKILLS --
         </div>
