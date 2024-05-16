@@ -10,21 +10,8 @@ import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
-import { useState, useEffect } from "react";
+
 const Skills = () => {
-  const [isVisible, setisVisible] = useState(false);
-
-  useEffect(() => {
-    const handlescroll = () => {
-      if (window.screenY > 400) {
-        setisVisible(true);
-      } else {
-        setisVisible(false);
-      }
-    };
-    window.addEventListener("scroll", handlescroll);
-  }, []);
-
   return (
     <div>
       <div className="w-full min-h-[300px] bg-black flex items-center justify-center">
