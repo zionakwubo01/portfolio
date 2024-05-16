@@ -10,12 +10,28 @@ import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
-
+import { useState, useEffect } from "react";
 const Skills = () => {
+  const [isVisible, setisVisible] = useState(false);
+
+  useEffect(() => {
+    const handlescroll = () => {
+      if (window.screenY > 400) {
+        setisVisible(true);
+      } else {
+        setisVisible(false);
+      }
+    };
+    window.addEventListener("scroll", handlescroll);
+  }, []);
+
   return (
     <div>
       <div className="w-full min-h-[300px] bg-black flex items-center justify-center">
-        <div className="w-[90%] lg:w-[80%] min-h-[300px]  grid grid-rows-4 gap-5 mt-[30px] lg:mt-[5px]">
+        <div
+          className={`w-[90%] lg:w-[80%] min-h-[300px]  grid grid-rows-3 gap-5 mt-[30px] lg:mt-[5px]  
+          transition-all duration-500 ease-in-out`}
+        >
           <div className="col-span-1 grid grid-cols-2  gap-[60px] lg:grid-cols-4 ">
             <div
               className="row-col-1 flex items-center justify-center gap-5 h-[70px] "
