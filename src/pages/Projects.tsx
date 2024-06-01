@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <div className="w-full min-h-[600px] bg-black flex items-center justify-center">
-        <div className="w-[90%] sm:w-[60%] lg:w-[80%] md:w-[60%] min-h-[500px]  grid grid-rows-2">
+        <div className="w-[90%] sm:w-[60%] lg:w-[80%] md:w-[60%] min-h-[500px]  grid grid-rows-1">
           <div className="lg:h-[340px] grid grid-rows-3 lg:grid-cols-3 md:grid-rows-3 gap-5 ">
             <div
               className=" row-span-1 

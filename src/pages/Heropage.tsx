@@ -1,5 +1,3 @@
-
-
 const Heropage = () => {
   return (
     <div>
@@ -38,6 +36,11 @@ const Heropage = () => {
             </p>
             <div className="h-[3px] w-[360px] bg-red-50"></div>
           </div>
+          <a href="https://drive.google.com/file/d/1AqC2dYXw6IhNaw9EsTffVPKQsh55y5q2/view?usp=sharing">
+            <div className="w-[360px] h-[60px] bg-white rounded-lg text-black font-bold text-[20px] flex items-center justify-center">
+              CHECKOUT MY CV
+            </div>
+          </a>
         </div>
       </div>
     </div>
